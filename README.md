@@ -46,7 +46,7 @@ ________________________________________________________________________________
 	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/64a06817-9de4-46be-9087-a1c5a56eee7d)
 
 
-- A partir dai partimos para a correção na criação da DIM_ORGAO, utilizando a cláusula MIN para mostrar somente a menos descrição
+- A partir dai partimos para a correção na criação da DIM_ORGAO, utilizando a cláusula MIN para mostrar somente a menor descrição
 associada a código do orgão.
 	
 	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/affe5ab0-6644-4799-a3de-4bbbad5389f8)
