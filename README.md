@@ -1,3 +1,6 @@
+DESIGNERS DO PROJETO: REBECA LOBO E ISRAEL ALVES
+_______________________________________________________________________________________________________________________________________________________________________________
+
 OBJETIVO:
 
 - Análisar as informações contidas no banco de dados (execução_financeira) proposto.
