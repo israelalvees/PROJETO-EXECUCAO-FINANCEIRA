@@ -447,3 +447,12 @@ com base no campo data_empenho, relacionando as informações do tempo.
 - GROUP BY v.codigo_empenho, v.codigo_orgao, o.nome_orgao, v.codigo_credor, cc.nome_credor, v.codigo_fonte, cf.nome_fonte, v.valor_empenho, t.data: 
 Essa cláusula agrupa os resultados pelo código do empenho, código do órgão, nome do órgão, código do credor, nome do credor, código da fonte, nome da fonte, 
 valor do empenho e data do empenho.
+_______________________________________________________________________________________________________________________________________________________________________________
+
+- DASHBOARD:
+
+  https://app.powerbi.com/view?r=eyJrIjoiN2YxMWNiYmEtYzFlYy00NDBhLTgxNTctMTc2YzI4YTVlYzJiIiwidCI6IjY5YjJmMGUzLTRkNjctNGFkMi04OGZmLWU5MzMzZDMwOGIzMiJ9&pageName=ReportSection
+
+	- Foi utilizado como ferramenta de BI para criação do dashboard o Power BI.
+   	- Consta no menu principal desse repositório o arquivo .pbi referente ao link acima.
+
