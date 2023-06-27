@@ -454,5 +454,10 @@ ________________________________________________________________________________
   https://app.powerbi.com/view?r=eyJrIjoiN2YxMWNiYmEtYzFlYy00NDBhLTgxNTctMTc2YzI4YTVlYzJiIiwidCI6IjY5YjJmMGUzLTRkNjctNGFkMi04OGZmLWU5MzMzZDMwOGIzMiJ9&pageName=ReportSection
 
 	- Foi utilizado como ferramenta de BI para criação do dashboard o Power BI.
+
+- CONSIDERAÇÕES SOBRE O DASHBOARD:
+
+  	- O intuido de um Dashboard é apresentar um conjunto de dados, outrora desorganizados e que já passaram pelo processo de ETL, de uma maneira de fácil visualização
+  	para qualquer usuário. Seguindo essa metodologia, é apresentado um dashboard intuitívo. Podendo ser filtrado desde uma forma geral, até uma combinação distinta entre os 	filtros (orgão, credor, fonte), tão bem quanto a data (ano, trimestre e mês). Ademais, é apresentado nas demais telas alguns insights relevantes ao contexto.
    	
 
