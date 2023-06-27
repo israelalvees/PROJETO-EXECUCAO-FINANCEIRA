@@ -454,5 +454,5 @@ ________________________________________________________________________________
   https://app.powerbi.com/view?r=eyJrIjoiN2YxMWNiYmEtYzFlYy00NDBhLTgxNTctMTc2YzI4YTVlYzJiIiwidCI6IjY5YjJmMGUzLTRkNjctNGFkMi04OGZmLWU5MzMzZDMwOGIzMiJ9&pageName=ReportSection
 
 	- Foi utilizado como ferramenta de BI para criação do dashboard o Power BI.
-   	- Consta no menu principal desse repositório o arquivo .pbi referente ao link acima.
+   	
 
