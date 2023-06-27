@@ -1,0 +1,82 @@
+PROJECT DESIGNERS: REBECA LOBO AND ISRAEL ALVES
+________________________________________________________________________________________________________________________________________________________________________________________________
+
+GOAL:
+
+- Analyze the information contained in the proposed database (financial_execution).
+- Treat the data; eliminating nulls, adjusting values and dates for better analysis.
+- Construction of a Data Warehouse from the aforementioned bank.
+- Use the DW to build a Dashboard using a BI tool, presenting relevant insights.
+________________________________________________________________________________________________________________________________________________________________________________________________
+
+LOGICAL, CONCEPTUAL AND DIMENSIONAL MODELING:
+
+- LOGIC:
+
+  ![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/81289f4f-dd79-4e2b-9e55-52011e65ec2e)
+  
+
+- CONCEPTUAL:
+
+   ![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/25fe9e5c-ffb1-437d-8e24-be7c8c14c207)
+
+- DIMENSIONAL:
+
+   ![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/1931cdac-d52a-4607-9895-657906f35174)
+
+- Dimensional model made exemplifying the View used to build the Dashboard.
+________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+MODELING OF SCRIPTS TO CREATE DIMENSION AND FACT TABLES:
+
+- ALL TABLES USE THE SAME METHODOLOGY, FIRST WE CREATE THE SELECT TO BRING THE NECESSARY FIELDS TO CREATE THE TABLE.
+- AFTER THE SELECT IS EXECUTED AND THE RESULTS VERIFIED, INCLUDE THE FIRST LINE CREATE TABLE AS 'NOME_TABELA'.
+- CREATION MUST ALWAYS BE MADE IN 'DATA_WAREHOUSE', WHERE THE DW IS.
+________________________________________________________________________________________________________________________________________________________________________________________________
+
+* SIZE_ORGAO TABLE:
+
+
+- In the initial analysis, organs with the same organ code but different descriptions were identified.
+- We used this SELECT to identify which ones were:
+
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/292f4ebf-0d28-4a0e-8f2f-9b1c3bcbfcdc) -
+
+- The subquery within HAVING selects the organ codes that have more than one associated organ description. Then, the main query only displays the records that have an agency code present in the subquery, filtering only the cases in which the agency code is the same, but the agency name is different. Resulting in these bodies:
+
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/64a06817-9de4-46be-9087-a1c5a56eee7d)
+
+
+- From there we set out to correct the creation of DIM_ORGAO, using the MIN clause to show only the smallest description
+associated with the organ code.
+
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/affe5ab0-6644-4799-a3de-4bbbad5389f8)
+
+
+- e.codigo_orgao AS codigo_orgao: This part of the query selects the codigo_orgao field from the execution_financeira_despesa table and renames it codigo_orgao.
+The codigo_orgao field is a column that represents the organ's identification code.
+
+- COALESCE(MIN(organ_e.dsc), organ_code) AS organ_name: In this part of the query, the COALESCE function is used together with the MIN function.
+The MIN function is used to obtain the minimum value of the dsc_orgao column of the execution_financeira_despesa table. Avoiding duplication of Organs.
+The COALESCE function is used to return the first non-null value between the minimum value of column dsc_orgao and the value of e.codigo_orgao.
+The result of this operation is renamed as nome_orgao, which represents the name of the financial execution agency for expenses.
+
+- FROM financial_execution_expenses: This part of the query specifies the financial_execution_expenses table
+and renames it to e, which is an alias for easy reference to table fields.
+
+- GROUP BY e.codigo_orgao: Here, the GROUP BY clause is used to group the results based on the codigo_orgao field.
+This means that the results will be grouped by financial execution agency.
+
+- ORDER BY e.codigo_orgao ASC: The ORDER BY clause is used to order the results in
+ascending order based on the codigo_orgao field. This means that the results will be displayed in ascending organ code order.
+________________________________________________________________________________________________________________________________________________________________________________________________
+
+* TABLE DIM_CREDOR:
+
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/17526501-aace-4453-b500-d8b6776f23c8)
+
+
+- e.cod_credor AS codigo_credor: This part of the query selects the cod_credor field from the execution_financeira_despesa table
+  and renames it as code_creditor. The cod_credor field is a column that represents the credit code
