@@ -171,9 +171,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA DIM_ITEM:
 	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/bebef8e7-3ca9-48ad-b107-d1b9f04a5320)
-
-
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/04df0f3f-8c4a-4f99-b7c9-9944f3777899)
 
 
 - e.cod_item AS codigo_item: Este campo representa o código do item financeiro. Ele é renomeado como "codigo_item".
@@ -196,9 +194,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 	
 ## * TABELA DIM_ITEM_ELEMENTO:
 	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/eecdef9b-4fc2-4553-b672-b64bf0452351)
-
-
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/fab27733-d772-4350-8f29-548d41bba0f8)
 
 
 - e.cod_item_elemento AS codigo_item_elemento: Este campo representa o código do elemento do item financeiro. Ele é renomeado como "codigo_item_elemento".
@@ -222,9 +218,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA DIM_ITEM_CATEGORIA:
 
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/c9ea59a8-3a1c-4c65-8cb7-c097cbd641cf)
-
-
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/0a6a4677-8496-467f-83cc-d7bc82c1fb42)
 
 
 - e.cod_item_categoria AS codigo_item_categoria: Este campo representa o código da categoria do item financeiro. Ele é renomeado como "codigo_item_categoria".
@@ -244,7 +238,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA DIM_ITEM_GRUPO:
 	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/19b4ae26-2066-45f2-abfe-ace931c00135).
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/3bc65361-fb16-41b3-82e8-903802f37274)
 
 
 - e.cod_item_grupo AS codigo_item_grupo: Este campo representa o código do grupo do item financeiro. Ele é renomeado como "codigo_item_grupo".
