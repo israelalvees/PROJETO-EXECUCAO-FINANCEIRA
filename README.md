@@ -47,18 +47,20 @@
 - Na análise incial, foi indentificado orgãos com o mesmo código de orgão porém descrições diferentes.
 - Utilizamos esse SELECT para indentificar quais eram:
 
-	![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/46bc94ec-fac1-42c5-8290-d5ff96d384e9)
+	![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/16428eb4-1852-4f69-8c56-cc0ae4a765d2)
+
 
 
 - A subconsulta dentro do HAVING seleciona os códigos de órgãos que possuem mais de uma descrição de órgão associado. Em seguida, a consulta principal exibe apenas os registros que possuem um código de órgão presente na subconsulta, filtrando apenas os casos em que o código do órgão é igual, mas o nome do órgão é diferente. Resultando nesses orgãos:
 
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/64a06817-9de4-46be-9087-a1c5a56eee7d)
+	![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/ec07f923-5c02-4ec4-9ced-387796657cd8)
 
 
 - A partir dai partimos para a correção na criação da DIM_ORGAO, utilizando a cláusula MIN para mostrar somente a menor descrição
 associada a código do orgão.
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/affe5ab0-6644-4799-a3de-4bbbad5389f8)
+	![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/b4e74836-ad52-4093-abd6-fac3315c6525)
+
 
 
 - e.codigo_orgao AS codigo_orgao: Esta parte da consulta seleciona o campo codigo_orgao da tabela execucao_financeira_despesa e o renomeia como codigo_orgao. 
