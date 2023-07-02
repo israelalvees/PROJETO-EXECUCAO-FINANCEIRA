@@ -261,9 +261,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA DIM_ITEM_MODALIDADE:
 	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/461b2096-e84d-49c5-ac5b-da6e1f70d888)
-
-
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/541d3075-f5e9-45cf-ba55-7ec62dc91e02)
 
 
 - e.cod_item_modalidade AS codigo_item_modalidade: Este campo representa o código da modalidade do item financeiro. Ele é renomeado como "codigo_item_modalidade".
@@ -286,9 +284,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA DIM_PROGRAMA:
 	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/d1d0441d-e84e-4630-8762-e00d6d7ff16c)
-
-
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/f70994e7-93b2-4f99-9780-56e5c42add8d)
 
 
 - e.cod_programa AS codigo_programa: Este campo representa o código do programa financeiro. Ele é renomeado como "codigo_programa".
