@@ -76,11 +76,11 @@ Isso significa que os resultados serão agrupados por órgão de execução fina
 
 - ORDER BY e.codigo_orgao ASC: A cláusula ORDER BY é usada para ordenar os resultados em 
 ordem ascendente com base no campo codigo_orgao. Isso significa que os resultados serão exibidos em ordem crescente de código de órgão.	
-_______________________________________________________________________________________________________________________________________________________________________________
 
-* TABELA DIM_CREDOR:
+
+## * TABELA DIM_CREDOR:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/17526501-aace-4453-b500-d8b6776f23c8)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/17526501-aace-4453-b500-d8b6776f23c8)
 
 
 - e.cod_credor AS codigo_credor: Esta parte da consulta seleciona o campo cod_credor da tabela execucao_financeira_despesa
@@ -99,11 +99,11 @@ no campo cod_credor. Isso significa que os resultados serão agrupados por códi
 
 - ORDER BY e.cod_credor ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem 
 ascendente com base no campo cod_credor. Isso significa que os resultados serão exibidos em ordem crescente de código de credor.	
-_______________________________________________________________________________________________________________________________________________________________________________
 
-* TABELA DIM_FONTE:
+
+## * TABELA DIM_FONTE:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/52a786af-0318-4930-b19d-006e9014a00c)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/52a786af-0318-4930-b19d-006e9014a00c)
 
 
  - e.cod_fonte AS codigo_fonte: Esta parte da consulta seleciona o campo cod_fonte da tabela execucao_financeira_despesa 
@@ -126,11 +126,10 @@ Isso significa que os resultados serão agrupados por código de fonte.
 
 - ORDER BY e.cod_fonte ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo cod_fonte. 
 Isso significa que os resultados serão exibidos em ordem crescente de código de fonte.
-_______________________________________________________________________________________________________________________________________________________________________________	
 
-* TABELA DIM_FUNCAO:
+## * TABELA DIM_FUNCAO:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/6f4d2d1f-0c21-47cb-a699-580003d3ed5c)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/6f4d2d1f-0c21-47cb-a699-580003d3ed5c)
 
 
 
@@ -148,11 +147,10 @@ Isso significa que os registros serão agrupados de acordo com os valores único
 
 - ORDER BY e.cod_funcao ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo "cod_funcao". 
 Isso significa que os resultados serão exibidos em ordem crescente de código de função.
-_______________________________________________________________________________________________________________________________________________________________________________	
 
-* TABELA DIM_SUBFUNCAO:
+## * TABELA DIM_SUBFUNCAO:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/cd36fb01-8dd1-4123-828b-68e85db2b797)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/cd36fb01-8dd1-4123-828b-68e85db2b797)
 
 
 
@@ -170,11 +168,11 @@ Isso significa que os registros serão agrupados de acordo com os valores único
 
 - ORDER BY e.cod_subfuncao ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo "cod_subfuncao". 
 Isso significa que os resultados serão exibidos em ordem crescente de código de subfunção.	
-_______________________________________________________________________________________________________________________________________________________________________________
 
-* TABELA DIM_ITEM:
+
+## * TABELA DIM_ITEM:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/bebef8e7-3ca9-48ad-b107-d1b9f04a5320)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/bebef8e7-3ca9-48ad-b107-d1b9f04a5320)
 
 
 
@@ -195,11 +193,11 @@ Isso significa que os registros serão agrupados de acordo com os valores único
 
 - ORDER BY e.cod_item ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo "cod_item". 
 Isso significa que os resultados serão exibidos em ordem crescente de código de item.	
-_______________________________________________________________________________________________________________________________________________________________________________
+
 	
-* TABELA DIM_ITEM_ELEMENTO:
+## * TABELA DIM_ITEM_ELEMENTO:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/eecdef9b-4fc2-4553-b672-b64bf0452351)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/eecdef9b-4fc2-4553-b672-b64bf0452351)
 
 
 
@@ -221,11 +219,11 @@ Isso significa que os registros serão agrupados de acordo com os valores único
 
 - ORDER BY e.cod_item_elemento ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo "cod_item_elemento". 
 Isso significa que os resultados serão exibidos em ordem crescente de código do elemento do item.
-_______________________________________________________________________________________________________________________________________________________________________________	
+	
 
-* TABELA DIM_ITEM_CATEGORIA:
+## * TABELA DIM_ITEM_CATEGORIA:
 
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/c9ea59a8-3a1c-4c65-8cb7-c097cbd641cf)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/c9ea59a8-3a1c-4c65-8cb7-c097cbd641cf)
 
 
 
@@ -244,12 +242,10 @@ Isso significa que os registros serão agrupados de acordo com os valores único
 
 - ORDER BY e.cod_item_categoria ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo "cod_item_categoria". 
 Isso significa que os resultados serão exibidos em ordem crescente de código da categoria do item.
-_______________________________________________________________________________________________________________________________________________________________________________
-	
 
-* TABELA DIM_ITEM_GRUPO:
+## * TABELA DIM_ITEM_GRUPO:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/19b4ae26-2066-45f2-abfe-ace931c00135).
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/19b4ae26-2066-45f2-abfe-ace931c00135).
 
 
 - e.cod_item_grupo AS codigo_item_grupo: Este campo representa o código do grupo do item financeiro. Ele é renomeado como "codigo_item_grupo".
@@ -269,12 +265,10 @@ Isso significa que os registros serão agrupados de acordo com os valores único
 
 - ORDER BY e.cod_item_grupo ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo "cod_item_grupo". 
 Isso significa que os resultados serão exibidos em ordem crescente de código do grupo do item.
-_______________________________________________________________________________________________________________________________________________________________________________
-	
 
-* TABELA DIM_ITEM_MODALIDADE:
+## * TABELA DIM_ITEM_MODALIDADE:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/461b2096-e84d-49c5-ac5b-da6e1f70d888)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/461b2096-e84d-49c5-ac5b-da6e1f70d888)
 
 
 
@@ -296,12 +290,10 @@ Isso significa que os registros serão agrupados de acordo com os valores único
 
 - ORDER BY e.cod_item_modalidade ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo "cod_item_modalidade". 
 Isso significa que os resultados serão exibidos em ordem crescente de código da modalidade do item.
-_______________________________________________________________________________________________________________________________________________________________________________
-	
 
-* TABELA DIM_PROGRAMA:
+## * TABELA DIM_PROGRAMA:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/d1d0441d-e84e-4630-8762-e00d6d7ff16c)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/d1d0441d-e84e-4630-8762-e00d6d7ff16c)
 
 
 
@@ -320,11 +312,10 @@ Isso significa que os registros serão agrupados de acordo com os valores único
 
 - ORDER BY e.cod_programa ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo "cod_programa". 
 Isso significa que os resultados serão exibidos em ordem crescente de código do programa.
-_______________________________________________________________________________________________________________________________________________________________________________
 
-* TABELA FATO_VALOR:
+## * TABELA FATO_VALOR:
 	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/390cefba-d543-48f3-a1ea-7c0f50556a4b)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/390cefba-d543-48f3-a1ea-7c0f50556a4b)
 
 
 - CONCAT(num_ano, cod_ne, codigo_orgao) AS codigo_empenho: Esta parte da consulta utiliza a função CONCAT para concatenar 
@@ -385,11 +376,10 @@ O resultado é renomeado como valor_a_pagar.
 
 - ORDER BY codigo_empenho ASC: A cláusula ORDER BY é usada para ordenar os resultados em ordem ascendente com base no campo codigo_empenho. 
 Isso significa que os resultados serão exibidos em ordem crescente de código de empenho.	
-_______________________________________________________________________________________________________________________________________________________________________________
 	
-* VW PARA CRIAÇÃO DO DASHBOARD: 
+## * VW PARA CRIAÇÃO DO DASHBOARD: 
 
-Optou-se pela criação de uma view criada a partir das tabelas constantes no DW e fazer o tratamento dos valores, somente no script da view.
+- Optou-se pela criação de uma view criada a partir das tabelas constantes no DW e fazer o tratamento dos valores, somente no script da view.
 A ideia seria otimizar o tempo, considerando um cenário real onde foi passada a demanda de criação de um dashboard onde os dados estavam desorganizados.
 Sendo assim possível entregar a demenda completa e de maneira correta, no menor tempo possível.	
 	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/d8b88af1-7659-4a9c-8428-a47744730c17)
@@ -455,13 +445,12 @@ com base no campo data_empenho, relacionando as informações do tempo.
 - GROUP BY v.codigo_empenho, v.codigo_orgao, o.nome_orgao, v.codigo_credor, cc.nome_credor, v.codigo_fonte, cf.nome_fonte, v.valor_empenho, t.data: 
 Essa cláusula agrupa os resultados pelo código do empenho, código do órgão, nome do órgão, código do credor, nome do credor, código da fonte, nome da fonte, 
 valor do empenho e data do empenho.
-_______________________________________________________________________________________________________________________________________________________________________________
 
-- DASHBOARD:
+## - DASHBOARD:
 
   https://app.powerbi.com/view?r=eyJrIjoiN2YxMWNiYmEtYzFlYy00NDBhLTgxNTctMTc2YzI4YTVlYzJiIiwidCI6IjY5YjJmMGUzLTRkNjctNGFkMi04OGZmLWU5MzMzZDMwOGIzMiJ9&pageName=ReportSection
 
-	- Foi utilizado como ferramenta de BI para criação do dashboard o Power BI.
+- Foi utilizado como ferramenta de BI para criação do dashboard o Power BI.
 
 - CONSIDERAÇÕES SOBRE O DASHBOARD:
 
