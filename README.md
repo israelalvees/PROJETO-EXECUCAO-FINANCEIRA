@@ -21,16 +21,16 @@
 
 - LÓGICA:
 
- 	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/81289f4f-dd79-4e2b-9e55-52011e65ec2e)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/81289f4f-dd79-4e2b-9e55-52011e65ec2e)
   
 
 - CONCEITUAL:
 
-  	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/25fe9e5c-ffb1-437d-8e24-be7c8c14c207)
+  ![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/25fe9e5c-ffb1-437d-8e24-be7c8c14c207)
 
 - DIMENSIONAL:
 
-  	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/1931cdac-d52a-4607-9895-657906f35174)
+  ![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/1931cdac-d52a-4607-9895-657906f35174)
 
 	- Modelo Dimensional feito exemplificando a View utilizada para construção do Dashboard.
 
@@ -47,11 +47,11 @@
 - Na análise incial, foi indentificado orgãos com o mesmo código de orgão porém descrições diferentes.
 - Utilizamos esse SELECT para indentificar quais eram:
 
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/292f4ebf-0d28-4a0e-8f2f-9b1c3bcbfcdc) - 
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/292f4ebf-0d28-4a0e-8f2f-9b1c3bcbfcdc) - 
 
 - A subconsulta dentro do HAVING seleciona os códigos de órgãos que possuem mais de uma descrição de órgão associado. Em seguida, a consulta principal exibe apenas os registros que possuem um código de órgão presente na subconsulta, filtrando apenas os casos em que o código do órgão é igual, mas o nome do órgão é diferente. Resultando nesses orgãos:
 
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/64a06817-9de4-46be-9087-a1c5a56eee7d)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/64a06817-9de4-46be-9087-a1c5a56eee7d)
 
 
 - A partir dai partimos para a correção na criação da DIM_ORGAO, utilizando a cláusula MIN para mostrar somente a menor descrição
