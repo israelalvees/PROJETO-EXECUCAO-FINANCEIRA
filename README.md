@@ -304,7 +304,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA FATO_VALOR:
 	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/390cefba-d543-48f3-a1ea-7c0f50556a4b)
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/54fc5b4b-8ace-4f7a-b18e-d7d691dc3157)
 
 
 - CONCAT(num_ano, cod_ne, codigo_orgao) AS codigo_empenho: Esta parte da consulta utiliza a função CONCAT para concatenar 
@@ -370,8 +370,9 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 - Optou-se pela criação de uma view criada a partir das tabelas constantes no DW e fazer o tratamento dos valores, somente no script da view.
 A ideia seria otimizar o tempo, considerando um cenário real onde foi passada a demanda de criação de um dashboard onde os dados estavam desorganizados.
-Sendo assim possível entregar a demenda completa e de maneira correta, no menor tempo possível.	
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/d8b88af1-7659-4a9c-8428-a47744730c17)
+Sendo assim possível entregar a demenda completa e de maneira correta, no menor tempo possível.
+
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/154b74db-c8d9-4d1c-8180-c5b562758a5a)
 
 
 - v.codigo_empenho: Este campo representa o código do empenho.
