@@ -40,9 +40,8 @@
 - TODAS AS TABELAS USAM A MESMA METODOLOGIA, PRIMEIRO CRIAMOS O SELECT PARA TRAZER OS CAMPOS NECESSÁRIOS PARA CRIAÇÃO DA TABELA.
 - APÓS EXECUTADO O SELECT E VERIFICADO OS RESULTADOS, INCLUE A PRIMEIRA LINHA CREATE TABLE AS 'NOME_TABELA'.
 - A CRIAÇÃO SEMPRE DEVE SER FEITA EM 'DATA_WAREHOUSE', LOCAL ONDE ESTÁ O DW.
-_______________________________________________________________________________________________________________________________________________________________________________	
 
-* TABELA DIM_ORGAO:
+## * TABELA DIM_ORGAO:
 
 
 - Na análise incial, foi indentificado orgãos com o mesmo código de orgão porém descrições diferentes.
