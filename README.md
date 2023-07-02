@@ -21,7 +21,7 @@
 
 - LÓGICA:
 
-	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/81289f4f-dd79-4e2b-9e55-52011e65ec2e)
+![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/81289f4f-dd79-4e2b-9e55-52011e65ec2e)
   
 
 - CONCEITUAL:
@@ -47,7 +47,8 @@
 - Na análise incial, foi indentificado orgãos com o mesmo código de orgão porém descrições diferentes.
 - Utilizamos esse SELECT para indentificar quais eram:
 
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/292f4ebf-0d28-4a0e-8f2f-9b1c3bcbfcdc) - 
+	![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/46bc94ec-fac1-42c5-8290-d5ff96d384e9)
+
 
 - A subconsulta dentro do HAVING seleciona os códigos de órgãos que possuem mais de uma descrição de órgão associado. Em seguida, a consulta principal exibe apenas os registros que possuem um código de órgão presente na subconsulta, filtrando apenas os casos em que o código do órgão é igual, mas o nome do órgão é diferente. Resultando nesses orgãos:
 
