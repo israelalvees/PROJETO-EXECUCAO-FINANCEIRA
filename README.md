@@ -1,6 +1,6 @@
-![Badge em Desenvolvimento](https://img.shields.io/badge/STATUS-CONCLUÍDO-blue)
-
-
+<p align="center">
+<img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-blue"/>
+</p>
 
 
 DESIGNERS DO PROJETO: REBECA LOBO E ISRAEL ALVES
