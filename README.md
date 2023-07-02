@@ -32,7 +32,7 @@
 
 ![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/30d2dcb5-14e2-4681-93c9-7ed19e473658)
 
-	- Modelo Dimensional feito exemplificando a View utilizada para construção do Dashboard.
+- Modelo Dimensional feito exemplificando a View utilizada para construção do Dashboard.
 
 
 ## MODELAGEM DOS SCRIPTS PARA CRIAÇÃO DAS TABELAS DIMENSÃO E FATO:
