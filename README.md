@@ -132,7 +132,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA DIM_FUNCAO:
 	
-[image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/4e2a2e3c-3e28-42c9-bfc4-dcd983d1ad02)
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/4e2a2e3c-3e28-42c9-bfc4-dcd983d1ad02)
 
 
 - e.cod_funcao AS codigo_funcao: Este campo representa o código da função financeira. Ele é renomeado como "codigo_funcao".
@@ -151,7 +151,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA DIM_SUBFUNCAO:
 	
-[image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/e1a5f652-959e-4b89-8cdf-775dfa62d4a0)
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/e1a5f652-959e-4b89-8cdf-775dfa62d4a0)
 
 
 - e.cod_subfuncao AS codigo_subfuncao: Este campo representa o código da subfunção financeira. Ele é renomeado como "codigo_subfuncao".
