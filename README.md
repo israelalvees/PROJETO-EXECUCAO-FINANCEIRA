@@ -2,6 +2,12 @@
 <img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-blue"/>
 </p>
 
+<div align="center">
+	
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-%2300758F.svg?style=for-the-badge&logo=sql&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+</div>
+
 
 DESIGNERS DO PROJETO: REBECA LOBO E ISRAEL ALVES
 _______________________________________________________________________________________________________________________________________________________________________________
