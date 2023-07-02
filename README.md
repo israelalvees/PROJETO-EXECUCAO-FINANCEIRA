@@ -21,16 +21,15 @@
 
 - LÓGICA:
 
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/81289f4f-dd79-4e2b-9e55-52011e65ec2e)
-  
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/9a535eb5-5051-4b1e-98be-435465c4f995)  
 
 - CONCEITUAL:
 
-  ![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/25fe9e5c-ffb1-437d-8e24-be7c8c14c207)
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/19999dab-43ae-4fa8-b234-4b74c0b11545)  
 
 - DIMENSIONAL:
 
-  ![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/1931cdac-d52a-4607-9895-657906f35174)
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/30d2dcb5-14e2-4681-93c9-7ed19e473658)
 
 	- Modelo Dimensional feito exemplificando a View utilizada para construção do Dashboard.
 
@@ -60,7 +59,6 @@
 associada a código do orgão.
 	
 	![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/b4e74836-ad52-4093-abd6-fac3315c6525)
-
 
 
 - e.codigo_orgao AS codigo_orgao: Esta parte da consulta seleciona o campo codigo_orgao da tabela execucao_financeira_despesa e o renomeia como codigo_orgao. 
