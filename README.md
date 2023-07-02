@@ -33,11 +33,9 @@
   	![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/1931cdac-d52a-4607-9895-657906f35174)
 
 	- Modelo Dimensional feito exemplificando a View utilizada para construção do Dashboard.
-________________________________________________________________________________________________________________________________________________________________________________
 
 
-
-MODELAGEM DOS SCRIPTS PARA CRIAÇÃO DAS TABELAS DIMENSÃO E FATO:
+## MODELAGEM DOS SCRIPTS PARA CRIAÇÃO DAS TABELAS DIMENSÃO E FATO:
 
 - TODAS AS TABELAS USAM A MESMA METODOLOGIA, PRIMEIRO CRIAMOS O SELECT PARA TRAZER OS CAMPOS NECESSÁRIOS PARA CRIAÇÃO DA TABELA.
 - APÓS EXECUTADO O SELECT E VERIFICADO OS RESULTADOS, INCLUE A PRIMEIRA LINHA CREATE TABLE AS 'NOME_TABELA'.
