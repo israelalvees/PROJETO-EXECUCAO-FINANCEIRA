@@ -7,17 +7,17 @@
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-%2300758F.svg?style=for-the-badge&logo=sql&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 </div>
-___________________________________________________________________________________________________________________________________________________________________________
 
-OBJETIVO:
+
+## OBJETIVO:
 
 - Análisar as informações contidas no banco de dados (execução_financeira) proposto.
 - Tratar os dados; elimando nulls, ajustando valores e datas para melhor análise.
 - Construção de um Data Warehouse a partir do banco supracitado.
 - Utilizar o DW para construção de um Dashboard utilizando uma ferramenta de BI, apresentando insights relevantes.
-_______________________________________________________________________________________________________________________________________________________________________________
 
-MODELAGEM LÓGICA, CONCEITUAL E DIMENSIONAL:
+
+## MODELAGEM LÓGICA, CONCEITUAL E DIMENSIONAL:
 
 - LÓGICA:
 
