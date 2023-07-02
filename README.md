@@ -1,4 +1,4 @@
-STATUS-https://img.shields.io/badge/CONCLUÍDO-blue
+-https://img.shields.io/badge/STATUS-CONCLUÍDO-blue
 
 
 DESIGNERS DO PROJETO: REBECA LOBO E ISRAEL ALVES
