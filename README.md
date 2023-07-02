@@ -17,7 +17,7 @@
 - Utilizar o DW para construção de um Dashboard utilizando uma ferramenta de BI, apresentando insights relevantes.
 
 
-## MODELAGEM LÓGICA, CONCEITUAL E DIMENSIONAL:
+ MODELAGEM LÓGICA, CONCEITUAL E DIMENSIONAL:
 
 - LÓGICA:
 
