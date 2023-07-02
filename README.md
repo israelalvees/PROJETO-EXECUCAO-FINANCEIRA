@@ -82,8 +82,8 @@ ordem ascendente com base no campo codigo_orgao. Isso significa que os resultado
 
 
 ## * TABELA DIM_CREDOR:
-	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/17526501-aace-4453-b500-d8b6776f23c8)
+
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/d06918cc-03dd-41dd-b2b3-97e7f68ba024)
 
 
 - e.cod_credor AS codigo_credor: Esta parte da consulta seleciona o campo cod_credor da tabela execucao_financeira_despesa
@@ -106,7 +106,7 @@ ascendente com base no campo cod_credor. Isso significa que os resultados serão
 
 ## * TABELA DIM_FONTE:
 	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/52a786af-0318-4930-b19d-006e9014a00c)
+![image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/7dcbf2d9-c25f-416f-9d2d-0f39d320f05e)
 
 
  - e.cod_fonte AS codigo_fonte: Esta parte da consulta seleciona o campo cod_fonte da tabela execucao_financeira_despesa 
@@ -132,9 +132,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA DIM_FUNCAO:
 	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/6f4d2d1f-0c21-47cb-a699-580003d3ed5c)
-
-
+[image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/4e2a2e3c-3e28-42c9-bfc4-dcd983d1ad02)
 
 
 - e.cod_funcao AS codigo_funcao: Este campo representa o código da função financeira. Ele é renomeado como "codigo_funcao".
@@ -153,9 +151,7 @@ Isso significa que os resultados serão exibidos em ordem crescente de código d
 
 ## * TABELA DIM_SUBFUNCAO:
 	
-![image](https://github.com/israelalvees/SCRIPTPROJETO/assets/128307729/cd36fb01-8dd1-4123-828b-68e85db2b797)
-
-
+[image](https://github.com/israelalvees/PROJETO-EXECUCAO-FINANCEIRA/assets/128307729/e1a5f652-959e-4b89-8cdf-775dfa62d4a0)
 
 
 - e.cod_subfuncao AS codigo_subfuncao: Este campo representa o código da subfunção financeira. Ele é renomeado como "codigo_subfuncao".
